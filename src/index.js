@@ -6,6 +6,9 @@ import './index.js';
 import { Navbar } from './navbar.js';
 import { Cards } from './cards.js';
 import { doctors } from './doctors.js';
+import "./index.css";
+import { Footer } from './footer.js';
+
 
 function Home(){
  
@@ -16,7 +19,8 @@ function Home(){
      {doctors.map((doctor)=>{
       return  <Cards {...doctor} key={doctor.id} />
      })}
-    
+     
+     <Footer/>
     </div>
   )
 }

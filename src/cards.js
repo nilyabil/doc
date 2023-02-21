@@ -1,10 +1,7 @@
 import React from 'react'
-import img1 from './images/elyse.png';
-import img2 from './images/matthew.png';
-import img3 from './images/molly.png';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { fasolid , faCircleH , faGraduationCap } from '@fortawesome/free-solid-svg-icons';
-
+import "./index.css"
 
 export const Cards = (props) => {
     const{id,img,name,speciality,description}=props
